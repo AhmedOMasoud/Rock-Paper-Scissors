@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="rps.css" />
+  </head>
+  <body>
+    <div class="top-portion">
+      <h1>Rock Paper Scissors</h1>
+      <button id="theme-btn" class="theme-toggle" onclick="ThemeToggle()"></button>
+      <div>
+        <button class="rps-choice" onclick="choice(0)">👊</button>
+        <button class="rps-choice" onclick="choice(1)">🖐️</button>
+        <button class="rps-choice" onclick="choice(2)">✌️</button>
+        <p id="result" class="results"></p>
+        <p id="choices" class="results"></p>
+        <p id="stats" class="results"></p>
+        <button class="reset-btn" onclick="Reset()">Reset Score</button>
+        <script src="rps.js" defer></script>
+      </div>
+    </div>
+  </body>
+</html>
